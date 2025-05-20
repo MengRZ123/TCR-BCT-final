@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
-import './styles.css';
-
 const mockSamples = [
   { id: 1, disease: 'MS', gender: 'Female', age: 42, region: 'Asia', genotype: 'HLA-DRB1*15:01', lifestyle: 'Smoker' },
   { id: 2, disease: 'AE', gender: 'Male', age: 35, region: 'Europe', genotype: 'HLA-DRB1*04:05', lifestyle: 'Non-smoker' },
